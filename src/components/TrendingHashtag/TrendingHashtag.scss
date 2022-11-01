@@ -1,0 +1,217 @@
+.trending-hashtag-wrapper {
+  width: 100%;
+
+  .trending-hashtag-container {
+    margin: 1.3rem;
+    height: 100%;
+    border: 4px solid rgba(180, 179, 222, 0.23);
+    border-radius: 32px;
+
+    .trending-hashtag-btn-wrapper {
+      display: flex;
+      margin: 1.3rem;
+      align-items: center;
+      margin-top: 0;
+      gap: 1.2rem;
+
+      .global-regions-btn {
+        width: 100%;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: "Sora" !important;
+        line-height: 24px;
+        padding: 10px 14px;
+        background: rgba(20, 20, 75, 0.6);
+        border: 1px solid #fec84b;
+        backdrop-filter: blur(4px);
+        border-radius: 50px;
+        cursor: pointer;
+
+        &:hover {
+          background: linear-gradient(
+            144.98deg,
+            #ffc500 12.82%,
+            #ffc500 44.81%,
+            #ffa800 80%
+          );
+          border: 1px solid #fedf89;
+          box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
+            0px 1px 2px rgba(16, 24, 40, 0.06);
+          cursor: pointer;
+          color: #000000;
+          transition: all 250ms ease;
+        }
+      }
+    }
+
+    .trending-hashtag-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 1.3rem;
+      align-items: center;
+
+      .trending-hashtag-header-left {
+        width: 100%;
+
+        .trending-hashtag-heading {
+          margin: 0;
+          padding: 0;
+          font-weight: 700;
+          font-size: 24px;
+          padding-bottom: 0.5rem;
+          line-height: 18px;
+          color: #f9fafb;
+        }
+
+        .trending-hashtag-title {
+          margin: 0;
+          padding: 0;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #f9fafb;
+        }
+      }
+
+      .trending-hashtag-header-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    }
+
+    .treding-hashtag-content-wrapper {
+      width: auto;
+      height: 100%;
+      padding: 1.2rem;
+      padding-top: 0;
+      background: linear-gradient(179.84deg, #000c49 43.71%, #0e1226 125.34%);
+      border-radius: 32px;
+
+      .trending-hashtag-content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .trending-hashtag-content-left {
+          width: 100%;
+          height: 100%;
+          .top-hashtags-wrapper {
+            .top-hastag-container {
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 9px;
+              color: #d0d5dd;
+            }
+          }
+        }
+
+        .trending-hashtag-content-right {
+          width: 100%;
+          align-items: center;
+          display: flex;
+          height: 12rem;
+          position: relative;
+
+          .top-four-hashtag-one {
+            position: absolute;
+            right: 3.7rem;
+            top: 5.5rem;
+            font-weight: 600;
+            font-size: 16px;
+            width: 5rem;
+            text-align: center;
+            color: #e4e7ec;
+          }
+
+          .top-four-hashtag-two {
+            position: absolute;
+            right: 3.7rem;
+            top: 11rem;
+            width: 5rem;
+            font-weight: 600;
+            text-align: center;
+            font-size: 16px;
+            color: #e4e7ec;
+          }
+          .top-four-hashtag-three {
+            position: absolute;
+            right: 3.7rem;
+            top: 17rem;
+            width: 5rem;
+            font-weight: 600;
+            text-align: center;
+            font-size: 16px;
+            color: #e4e7ec;
+          }
+          .top-four-hashtag-four {
+            position: absolute;
+            right: 3.7rem;
+            top: 22.5rem;
+            width: 5rem;
+            font-weight: 600;
+            text-align: center;
+            font-size: 16px;
+            color: #e4e7ec;
+          }
+
+          .tree-graph {
+            width: 100%;
+            height: max-content;
+
+            .custom {
+              height: 100%;
+
+              margin-bottom: -22rem;
+            }
+
+            .red-node {
+              fill: #ff7300;
+              stroke: #ff7300;
+            }
+            .blue-node {
+              fill: #0047ff;
+              stroke: #0047ff;
+            }
+            .light-node {
+              fill: #00a4ff;
+              stroke: #00a4ff;
+            }
+            .orrange-node {
+              fill: #ff0000;
+              stroke: #ff0000;
+            }
+            .light {
+              fill: none;
+              stroke: #00a4ff;
+              stroke-width: 1px;
+            }
+            .red {
+              fill: none;
+              stroke: #ff7300;
+              stroke-width: 1px;
+            }
+            .orrange {
+              fill: none;
+              stroke: #ff0000;
+              stroke-width: 1px;
+            }
+            .blue {
+              fill: none;
+              stroke: #0047ff;
+              stroke-width: 1px;
+            }
+
+            .grey {
+              font-size: 18px;
+              stroke-width: 1.5px;
+              stroke: #d0d5dd;
+            }
+          }
+        }
+      }
+    }
+  }
+}

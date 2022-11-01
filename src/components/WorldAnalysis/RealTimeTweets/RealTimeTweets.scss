@@ -1,0 +1,57 @@
+.left-content-wrapper-tweets {
+  height: 26.9rem;
+  width: 100%;
+  overflow: auto;
+  border-radius: 0.5rem;
+
+  .left-content-tweets {
+    border-bottom: 1px solid #2b356e;
+    height: auto;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+    padding: 0.1rem;
+
+    .left-content-heading {
+      margin: 0%;
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 1.25rem;
+      color: white;
+      text-decoration: none;
+      width: auto;
+    }
+
+    .hashtags {
+      margin: 0%;
+      padding-top: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      line-height: 1.25rem;
+      color: #fec84b;
+      width: auto;
+    }
+
+    .username {
+      font-weight: 500;
+      font-size: 0.875rem;
+      width: max-content;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .twitter-details {
+    display: flex;
+    align-items: center;
+
+    .twitter-logo {
+      margin-right: 0.2rem;
+      cursor: pointer;
+
+      @media (max-width: 998px) {
+        width: 0.938rem;
+        height: 0.938rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.map-line-Chart-wrapper {
+  width: 100%;
+
+  .map-line-chart-container {
+    margin: 1.3rem;
+    height: 100%;
+    gap: 1rem;
+    display: flex;
+    // justify-content: space-between;
+
+    .mapChart-wrapper {
+      width: 40%;
+    }
+
+    .lineChart-inside-wrapper {
+      width: 60%;
+    }
+  }
+}

@@ -1,0 +1,167 @@
+.header-wrapper {
+  width: 100%;
+
+  .header-inside-container {
+    margin: 1.2rem;
+    padding-bottom: 2.3rem;
+    filter: drop-shadow(0px 2px 10px rgba(0, 0, 0, 0.05));
+    border-bottom: 2px solid rgba(180, 179, 222, 0.23) !important;
+
+    .logo {
+      padding-bottom: 0.8rem;
+    }
+
+    .header-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .left-content-header {
+        .header-heading {
+          font-weight: 600;
+          font-size: 1.875rem;
+          line-height: 2.75rem;
+          margin: 0;
+          padding-bottom: 1.2rem;
+          padding-bottom: 0;
+          color: #fec84b;
+        }
+
+        .header-title {
+          font-weight: 400;
+          font-size: 1rem;
+          // padding: 1.2rem;
+          margin: 0;
+          padding-top: 0;
+          line-height: 1.188rem;
+          color: #ffffff;
+        }
+      }
+
+      .right-content {
+        .date-container {
+          display: flex;
+          align-items: center;
+          padding-bottom: 1.2rem;
+          gap: 1.5rem;
+
+          .date-one {
+            padding: 1.5rem;
+            width: max-content;
+            background: #191961;
+            border-radius: 1rem;
+            gap: 0.8rem;
+            display: flex;
+            align-items: center;
+
+            .date {
+              font-weight: 400;
+              font-size: 1.125rem;
+              line-height: 1.125rem;
+              margin: 0;
+              letter-spacing: 0.031rem;
+              color: #ffffff;
+              cursor: pointer;
+            }
+
+            .date-icon {
+              color: #fec84b;
+              cursor: pointer;
+
+              .fa {
+                transform: scale(1.3, 1.3);
+              }
+            }
+          }
+
+          .line {
+            width: 0.875rem;
+            height: 0.125rem;
+            background: #fec84b;
+          }
+
+          .date-two {
+            padding: 1.5rem;
+            width: max-content;
+            background: #191961;
+            border-radius: 1rem;
+            gap: 0.8rem;
+            display: flex;
+            align-items: center;
+
+            .date {
+              font-weight: 400;
+              font-size: 1.125rem;
+              line-height: 1.125rem;
+              margin: 0;
+              letter-spacing: 0.031rem;
+              color: #ffffff;
+              cursor: pointer;
+            }
+
+            .date-icon {
+              color: #fec84b;
+              cursor: pointer;
+
+              .fa {
+                transform: scale(1.3, 1.3);
+              }
+            }
+          }
+        }
+
+        .names-wrapper {
+          width: 100%;
+
+          .names-container {
+            display: grid;
+            gap: 0.2rem;
+            justify-content: space-around;
+            grid-template-columns: auto auto auto;
+
+            .Total-value {
+              font-weight: 600;
+              font-size: 1rem;
+              line-height: 1.125rem;
+              color: #e4e7ec;
+            }
+
+            .absolute-change-value {
+              font-weight: 600;
+              font-size: 0.75rem;
+              line-height: 0.938rem;
+              color: #98a2b3;
+            }
+
+            .percentage-change-value {
+              font-weight: 600;
+              font-size: 0.75rem;
+              line-height: 0.938rem;
+              color: #98a2b3;
+            }
+            .current-date {
+              font-weight: 400;
+              font-size: 0.75rem;
+              line-height: 0.938rem;
+              color: #e4e7ec;
+            }
+
+            .absolute-change {
+              font-weight: 400;
+              font-size: 0.75rem;
+              line-height: 0.938rem;
+              color: #98a2b3;
+            }
+            .percentage-change {
+              font-weight: 400;
+              font-size: 0.75rem;
+              line-height: 0.938rem;
+              color: #98a2b3;
+            }
+          }
+        }
+      }
+    }
+  }
+}

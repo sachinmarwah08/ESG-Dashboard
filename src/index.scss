@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  font-family: "Sora";
+  background: linear-gradient(
+    179.84deg,
+    #000c49 43.71%,
+    #0e1226 125.34%
+  ) !important;
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 445px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    131.15deg,
+    rgba(56, 75, 242, 0.29) -12.33%,
+    #000740 104.13%
+  );
+  border-radius: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    136.04deg,
+    rgba(85, 150, 248, 0.16) 3.7%,
+    rgba(156, 194, 251, 0.30213) 47.64%,
+    rgba(255, 255, 255, 0.5) 108.81%
+  );
+  border-radius: 0.625rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    136.04deg,
+    rgba(85, 150, 248, 0.16) 3.7%,
+    rgba(156, 194, 251, 0.30213) 47.64%,
+    rgba(255, 255, 255, 0.5) 108.81%
+  );
+  border-radius: 0.625rem;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("./Fonts/Sora-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("./Fonts/Sora-Thin.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("./Fonts/Sora-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("./Fonts/Sora-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("./Fonts/Sora-Light.ttf");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("./Fonts/Sora-ExtraLight.ttf");
+  font-style: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("./Fonts/Sora-ExtraBold.ttf");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Sora";
+  src: url("./Fonts/Sora-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+.recharts-cartesian-axis-tick-line {
+  display: none;
+}
+.recharts-cartesian-axis-line {
+  display: none;
+}
+
+.recharts-cartesian-axis-tick-line {
+  display: none;
+}
+.recharts-cartesian-axis-line {
+  color: #f0f0f0;
+  opacity: 0.15;
+}
+
+.recharts-tooltip-wrapper {
+  padding: 1rem;
+  background: rgba(20, 20, 75, 0.8);
+  border: 2px solid #330099 !important;
+  box-shadow: 0px 4px 8px rgba(158, 134, 255, 0.16);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  width: max-content;
+}
+
+.recharts-tooltip-item-name {
+  font-size: 20px !important;
+  color: #939596;
+  width: 100% !important;
+  // padding-top: 2rem;
+  // padding-right: 5rem;
+}
+
+.recharts-tooltip-item-separator {
+  display: none !important;
+}
+
+.recharts-tooltip-item-value {
+  font-size: 20px;
+  font-weight: 400;
+  width: max-content;
+  color: #f05728;
+}
+
+.recharts-default-tooltip {
+  width: 160px !important;
+  height: max-content !important;
+}
+
+.recharts-tooltip-item {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100%;
+  align-items: center !important;
+  padding-top: 0% !important;
+  gap: 0% !important;
+  padding-top: 0% !important;
+}
+
+.rdrMonth {
+  font-family: "Sora";
+}
+
+.rdrMonthName {
+  color: white !important;
+}
+.rdrWeekDay {
+  color: white !important;
+}
+
+.rdrDateDisplayWrapper {
+  background-color: transparent !important;
+}
+
+// .rdrDateDisplayItemActive {
+//   border: 1px solid #e0e0e0 !important;
+//   box-shadow: none !important;
+//   border-radius: 8px !important;
+//   color: #757575 !important;
+//   font-weight: 400 !important;
+//   font-size: 16px !important;
+// }
+
+.rdrDateDisplayItem {
+  box-shadow: none !important;
+  border-radius: 8px !important;
+  // border: 1px solid #e0e0e0 !important;
+  // color: white !important;
+  background-color: transparent !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+}
+
+.rdrDayPassive .rdrDayNumber span {
+  color: #98a2b3 !important;
+}
+
+.rdrDayNumber span {
+  color: white !important;
+}
+
+.rdrDateDisplayItemActive input {
+  color: white !important;
+}
+
+.rdrDateDisplayItem input {
+  cursor: pointer;
+  height: 2.5em;
+  line-height: 2.5em;
+  border: 0px;
+  background: transparent;
+  width: 100%;
+  color: white !important;
+}
+
+.rdrStaticRange {
+  border: none !important;
+}
+
+.rdrDefinedRangesWrapper {
+  color: white;
+  font-family: "Sora";
+  background-color: transparent !important;
+}
+
+.rdrDefinedRangesWrapper {
+  background-color: transparent;
+}
+.rdrStaticRanges {
+  button {
+    color: white;
+    font-family: "Sora";
+    background-color: transparent !important;
+
+    &:hover {
+      background-color: #000c49;
+    }
+  }
+}
+
+.rdrStaticRangeLabel {
+  &:hover {
+    background: rgba(93, 105, 255, 0.2) !important;
+  }
+}
+
+.rdrInputRanges {
+  display: none;
+}
+
+.rdrCalendarWrapper {
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.rdrCalendarWrapper select {
+  color: white !important;
+}
+
+.tippy-box[data-theme~="red"] {
+  border-radius: 8px;
+  background: rgba(20, 20, 75, 0.8);
+  border: 2px solid #330099;
+  box-shadow: 0px 4px 8px rgba(158, 134, 255, 0.22);
+  backdrop-filter: blur(8px);
+}
+
+.Toastify__toast-container {
+  width: 320px !important;
+}
+.Toastify__toast--default {
+  background: green !important ;
+  color: #aaa !important;
+}
+.Toastify__toast--info {
+  background: #3498db !important;
+}
+.Toastify__toast--success {
+  background: #07bc0c !important;
+}
+.Toastify__toast--warning {
+  background: #f1c40f !important;
+}
+.Toastify__toast--error {
+  background: rgb(136, 8, 0.8) !important;
+  border: 2px solid #c90016 !important;
+  box-shadow: 0px 4px 8px rgba(158, 134, 255, 0.22) !important;
+  backdrop-filter: blur(8px) !important;
+  color: #f9fafb !important;
+}

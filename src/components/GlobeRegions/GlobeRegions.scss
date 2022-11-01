@@ -1,0 +1,221 @@
+.global-regions-wrapper {
+  width: 100%;
+
+  .global-regions-container {
+    width: auto;
+    margin: 1.3rem;
+    height: 100%;
+    padding: 1.5rem;
+    border: 4px solid rgba(180, 179, 222, 0.23);
+    border-radius: 32px;
+
+    .global-regions-btn-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+
+      .global-regions-btn {
+        width: 100%;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: "Sora" !important;
+        line-height: 24px;
+        padding: 10px 14px;
+        background: rgba(20, 20, 75, 0.6);
+        border: 1px solid #fec84b;
+        backdrop-filter: blur(4px);
+        border-radius: 50px;
+        cursor: pointer;
+
+        &:hover {
+          background: linear-gradient(
+            144.98deg,
+            #ffc500 12.82%,
+            #ffc500 44.81%,
+            #ffa800 80%
+          );
+          border: 1px solid #fedf89;
+          box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1),
+            0px 1px 2px rgba(16, 24, 40, 0.06);
+          cursor: pointer;
+          color: #000000;
+          transition: all 250ms ease;
+        }
+      }
+    }
+
+    .global-filter-wrapper {
+      display: flex;
+      gap: 0.5rem;
+      margin-top: 1.5rem;
+
+      .selection {
+        display: flex;
+        background: #191961 !important;
+        border-radius: 0.5rem;
+        height: 100%;
+
+        .earth-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+          padding: 0.55rem;
+
+          &:hover {
+            background: #4251ff;
+            border-radius: 0.25rem;
+          }
+        }
+
+        .earth-icon-colored {
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+          padding: 0.55rem;
+          background: #4251ff;
+          border-radius: 0.25rem;
+        }
+
+        .earth-icon-btn {
+          background: transparent;
+          border: none;
+          margin: 0;
+          padding: 0;
+          height: 0;
+        }
+
+        .Table-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+          padding: 0.55rem;
+
+          &:hover {
+            background: #4251ff;
+            border-radius: 0.25rem;
+          }
+        }
+        .Arrow-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+          padding: 0.55rem;
+
+          &:hover {
+            background: #4251ff;
+            border-radius: 0.25rem;
+          }
+        }
+      }
+    }
+
+    .global-main-wrapper {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(
+          90.07deg,
+          #14144b 0.05%,
+          rgba(8, 8, 30, 0.405919) 16.59%,
+          rgba(0, 0, 0, 0) 42.38%
+        ),
+        linear-gradient(
+          180deg,
+          #14144b 0%,
+          rgba(8, 8, 30, 0.405919) 12.61%,
+          rgba(0, 0, 0, 0) 44.01%
+        ),
+        rgba(20, 20, 75, 0.2);
+
+      .global-bg-image {
+        background-image: url("../../Images/bg-image-new.png");
+        height: 32rem;
+        border-radius: 30px;
+        margin-top: 1.8rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 1.5rem;
+
+        .globe-container-wrapper {
+          position: absolute;
+          display: flex;
+          justify-content: space-around;
+          width: 100%;
+
+          .globe-left {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 2.5rem;
+
+            .range-btn {
+              width: max-content;
+              font-weight: 600;
+              font-size: 20px;
+              line-height: 24px;
+              border: none;
+              padding: 1rem 2rem;
+              text-align: center;
+              color: #ffffff;
+              background: #4251ff;
+              backdrop-filter: blur(8px);
+              border-radius: 50px;
+            }
+
+            .esg-heading-globe {
+              font-weight: 700;
+              font-size: 24px;
+              width: 20rem;
+              line-height: 32px;
+              color: #ffffff;
+            }
+
+            .media {
+              font-size: 16px;
+              line-height: 20px;
+              color: #ffffff;
+              .interest {
+                margin: 0;
+                font-weight: 400;
+              }
+              .score {
+                margin: 0;
+                font-weight: 700;
+              }
+            }
+          }
+          .globe-right {
+            width: 100%;
+
+            .bar-one {
+              position: absolute;
+              right: 18rem;
+              top: 14rem;
+              width: 5rem;
+              margin: 0;
+              padding: 0;
+            }
+            .bar-two {
+              position: absolute;
+              left: 25rem;
+              top: 12rem;
+              width: 5rem;
+              margin: 0;
+              padding: 0;
+            }
+
+            .bar-three {
+              position: absolute;
+              left: 45rem;
+              top: 2rem;
+              width: 5rem;
+              margin: 0;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
